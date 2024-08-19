@@ -1,0 +1,29 @@
+main{
+
+   position: relative;
+   width: 100%;
+
+   & .bg{
+        z-index: -3;
+        opacity: 0.2;
+   }
+
+   & .grid{   
+        z-index: 10px;
+        
+        & .capa{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-wrap: wrap;
+            & p{
+                width: 60rem;
+                font-size: 1.2rem;
+                text-align: center;
+
+            }
+        }
+   }
+    
+
+}

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto; 
+    padding: 0px;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(83,159,68);
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 3.2rem;
+}
+.icon-box{
+    width:6rem;
+}
+
+.list-number{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+.img-phone{
+    width: 24.3rem;
+}
