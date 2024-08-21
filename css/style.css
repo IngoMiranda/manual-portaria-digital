@@ -1,25 +1,29 @@
 main{
-
+    display: flex;
    position: relative;
    width: 100%;
    height: 100vh;
+
    
     & ::before{
+        animation: bg-anima 2s ease-in-out infinite alternate;
         content:"";
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         background: right / cover no-repeat url(/img/bg-portaria.png);
         opacity: 0.1; 
         z-index: -1;
     }
-
+    
    & .grid{   
-        z-index: 10px;
-        
+        display: flex;   
+        align-items: center;
+        justify-content: center;
         & .capa{
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items:center;
@@ -32,6 +36,7 @@ main{
             }
         }
    }
-    
+
+   
 
 }

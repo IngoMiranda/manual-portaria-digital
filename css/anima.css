@@ -1,0 +1,7 @@
+/* ANIMAÇÕES DO MAIN */
+
+@keyframes bg-anima { 
+    from{
+        transform: translateY(-4px); /* animação de background */
+    }
+}
