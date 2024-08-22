@@ -5,3 +5,11 @@
         transform: translateY(-4px); /* animação de background */
     }
 }
+@keyframes logo{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
