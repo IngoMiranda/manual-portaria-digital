@@ -4,7 +4,27 @@ header{
     padding: 1rem;
     width: 100%;
     & .logo-empresa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 6.0rem;
+    }
+    & .redes-sociais{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.6rem;
+        & .social{
+            width: 3rem;
+            & svg{
+                fill: white;
+                width: 3rem;
+                height: 3rem;
+                & path{
+                    fill: white;
+                }
+            }
+        }
     }
 }
 main{
@@ -31,12 +51,14 @@ main{
         display: flex;   
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         & .capa{
             width: 100%;
             display: flex;
             justify-content: center;
             align-items:center;
             flex-wrap: wrap;
+            margin-bottom: 3rem;
             & .titulo-img{
                 width: 100%;
                 display: flex;
@@ -55,7 +77,17 @@ main{
                 text-align: end;
                 width: 100%;
                 text-align: center;
-                font-size: 1rem;
+                font-size: 1.2rem;
+            }
+        }
+
+        & .seta{
+            & svg{
+                width: 2rem;
+                height: 2rem;
+                & path{
+                    fill: white;
+                }
             }
         }
    }
